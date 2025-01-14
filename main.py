@@ -59,10 +59,10 @@ agent = CodeAgent(
     # model=LiteLLMModel(model_id="gpt-4o-mini"),
     model=HfApiModel(),
     max_steps=4,
-    verbosity_level=2,
+    verbosity_level=0,
 )
 
-agent_output = agent.run("what is Position-wise Feed-Forward Networks", stream=True)
+agent_output = agent.run("what is Position-wise Feed-Forward Networks")
 
 
 print("Final output:")
