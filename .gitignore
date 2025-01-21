@@ -1,4 +1,6 @@
 .log
-test.py
-/smolagents
+test2.py
+/smolagent
 .env
+/test
+/chroma_db
